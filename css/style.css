@@ -16,14 +16,40 @@ pink: #BF5B65
  dark: #170A1F
   */
 
+@font-face {
+	font-family: "Raleway-Bold";
+	src: url("type/Raleway-Bold.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("type/Raleway-Regular.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Medium";
+	src: url("type/Raleway-Medium.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Light";
+	src: url("type/Raleway-Light.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Thin";
+	src: url("type/Raleway-Thin.otf") format("opentype");
+	font-style: normal;
+}
+
 body {
 	/*background-color: #170A1F;*/
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 1.0em;
 	padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
 p {
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 1.1em;
 	color: #dedede;
 }
@@ -32,9 +58,11 @@ p {
 	margin-left: 20px;
 }
 .navbar .brand {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1.4em;
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: #B6C98E;
 }
+/*, "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif*/
 .navbar-inner {
 	background-image: none;
 	background-color: #13595D;
@@ -67,6 +95,7 @@ p {
 }
 
 .subtext {
+	font-family: "Raleway-Thin", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-top: 1em;
 	font-size: 1.6em;
 	color: #BF5B65;
@@ -86,7 +115,6 @@ section .container {
 }
 
 .text-container {
-	margin-top: auto;
 	margin-bottom: auto;
 	padding: 20px;
 	background: rgba(80,80,80,0.7);/* dirty lila rgba(66,50,74,0.5) */
@@ -95,6 +123,8 @@ section .container {
 }
 
 .text-container p {
+	font-family: "Raleway-Thin", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
 	color: white;
 	line-height: 1.4em;
 }

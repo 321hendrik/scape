@@ -95,15 +95,20 @@ p {
 }
 
 .subtext {
-	font-family: "Raleway-Thin", Helvetica, Arial, "Lucida Grande", sans-serif;
+	position: absolute;
+	left: 2em;
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-top: 1em;
 	font-size: 1.6em;
-	color: #BF5B65;
-	padding-left: 30px;
+	color: #C92D55;
+	width: 300px;
+	background: rgba(255,255,255,0.6);
+	padding: 8px;
 }
 
 section .container {
-	height: 3000px;
+	position: relative;
+	height: 1200px;
 	width: 50%;
 	padding: 30px 30px;
 }
@@ -124,13 +129,26 @@ section .video-container {
 .text-container {
 	margin-bottom: auto;
 	padding: 20px;
-	background: rgba(80,80,80,0.7);/* dirty lila rgba(66,50,74,0.5) */
+	background: rgba(255,255,255,0.8);
 	color: white;
 	line-height: 1.4em;
 }
-
 .text-container p {
-	font-family: "Raleway-Thin", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
+	color: #13595D;
+	line-height: 1.4em;
+}
+
+.text-container-dark {
+	margin-bottom: auto;
+	padding: 20px;
+	background: rgba(19,89,93,0.9);
+	color: white;
+	line-height: 1.4em;
+}
+.text-container-dark p {
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-top: auto;
 	color: white;
 	line-height: 1.4em;
@@ -138,8 +156,8 @@ section .video-container {
 
 .contact-info p {
 	margin: 0;
-	padding: 20px;
-	color: #170A1F;
+	padding: 15px;
+	color: #B6C98E;
 	line-height: 1.4em;
 }
 
@@ -150,6 +168,11 @@ section .video-container {
     width: 100%;
     position: relative;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#intro .container {
+		height: 1000px;
+		width: 80%;
+		padding: 30px 30px;
 }
 p.bottom {
 	position: fixed;
@@ -173,6 +196,7 @@ p.bottom {
     color: #fff;
 }
 #contact {
+		text-align: right;
     background: #13595D 50% 0 fixed;
     height: auto;
     margin: 0 auto;
@@ -196,11 +220,14 @@ p.bottom {
 		z-index: 2;
 		position:absolute;
 		top: 0px;
-		left: 10px;
+		left: 30px;
 		width: 40%;
 }
 
-div canvas {
-	position: absolute;
-	top: 0px;
+.left {
+		margin-left: 30px;
+}
+
+.right {
+		margin-right: 30px;
 }

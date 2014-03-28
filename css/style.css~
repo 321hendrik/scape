@@ -16,14 +16,40 @@ pink: #BF5B65
  dark: #170A1F
   */
 
+@font-face {
+	font-family: "Raleway-Bold";
+	src: url("type/Raleway-Bold.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("type/Raleway-Regular.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Medium";
+	src: url("type/Raleway-Medium.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Light";
+	src: url("type/Raleway-Light.otf") format("opentype");
+	font-style: normal;
+}
+@font-face {
+	font-family: "Raleway-Thin";
+	src: url("type/Raleway-Thin.otf") format("opentype");
+	font-style: normal;
+}
+
 body {
 	/*background-color: #170A1F;*/
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 1.0em;
 	padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
 }
 
 p {
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 1.1em;
 	color: #dedede;
 }
@@ -32,9 +58,11 @@ p {
 	margin-left: 20px;
 }
 .navbar .brand {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1.4em;
+	font-family: "Raleway", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: #B6C98E;
 }
+/*, "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif*/
 .navbar-inner {
 	background-image: none;
 	background-color: #13595D;
@@ -67,21 +95,27 @@ p {
 }
 
 .subtext {
+	position: absolute;
+	left: 2em;
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-top: 1em;
 	font-size: 1.6em;
-	color: #BF5B65;
-	padding-left: 30px;
+	color: #C92D55;
+	width: 300px;
+	background: rgba(255,255,255,0.6);
+	padding: 8px;
 }
 
 section .container {
-	height: 3000px;
+	position: relative;
+	height: 1200px;
 	width: 50%;
 	padding: 30px 30px;
 }
 
 section .video-container {
 	position: relative;
-	height: 800px;
+	height: 1000px;
 	width: 100%;
 }
 
@@ -93,15 +127,29 @@ section .video-container {
 }
 
 .text-container {
-	margin-top: auto;
 	margin-bottom: auto;
 	padding: 20px;
-	background: rgba(80,80,80,0.7);/* dirty lila rgba(66,50,74,0.5) */
+	background: rgba(255,255,255,0.8);
 	color: white;
 	line-height: 1.4em;
 }
-
 .text-container p {
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
+	color: #13595D;
+	line-height: 1.4em;
+}
+
+.text-container-dark {
+	margin-bottom: auto;
+	padding: 20px;
+	background: rgba(19,89,93,0.9);
+	color: white;
+	line-height: 1.4em;
+}
+.text-container-dark p {
+	font-family: "Raleway-Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin-top: auto;
 	color: white;
 	line-height: 1.4em;
 }
@@ -120,6 +168,11 @@ section .video-container {
     width: 100%;
     position: relative;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#intro .container {
+		height: 1000px;
+		width: 80%;
+		padding: 30px 30px;
 }
 p.bottom {
 	position: fixed;
@@ -166,11 +219,14 @@ p.bottom {
 		z-index: 2;
 		position:absolute;
 		top: 0px;
-		left: 10px;
+		left: 30px;
 		width: 40%;
 }
 
-div canvas {
-	position: absolute;
-	top: 0px;
+.left {
+		margin-left: 30px;
+}
+
+.right {
+		margin-right: 30px;
 }

@@ -30,7 +30,7 @@
 						<ul class="nav">
 							<li id="link-home" ><a href="#home">Willkommen</a></li>
 							<li id="link-about"><a href="#about">Über</a></li>
-							<!--<li id="link-contact"><a href="#contact">Kontakt</a></li>-->
+							<li id="link-video"><a href="#video">Video</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -47,10 +47,19 @@
 		</section>
 		<!-- Home -->
 		<section id="home" data-speed="10" data-offset="100" data-type="background">
-			<div class="container">
+			<div class="container left">
 				<p class="headline light-text">Willkommen</p>
 				<div class="img-container" style="background-image: url(images/music-corner.jpg)"></div>
 				<div class="text-container">
+					<p>
+						Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks
+					</p>
+				</div>
+			</div>
+			<div class="container right">
+				<p class="headline light-text">Noch mehr</p>
+				<div class="img-container" style="background-image: url(images/music-corner.jpg)"></div>
+				<div class="text-container-dark">
 					<p>
 						Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks
 					</p>
@@ -71,13 +80,13 @@
 		</section>
 		
 		<!-- Video -->
-		<section id="video2"  data-speed="1" data-offset="100" data-type="video">
+		<section id="video"  data-speed="1" data-offset="100" data-type="video">
 			<div class="video-container">
 				<video id="video-background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
 				<source src="videos/keys.mp4" type="video/mp4"> Video not supported </video>
 				<div class="video-text">
 					<p class="headline dark-text">Video</p>
-					<div class="text-container">
+					<div class="text-container-dark">
 						<p>
 						Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks
 						</p>
@@ -89,7 +98,7 @@
 		<!-- Contact -->
 		<section id="contact" data-speed="1" data-offset="100" data-type="background">
 			<div class="contact-info">
-				<p>Hendrik Elsner 2014</p>
+				<p><a href="http://hendrikelsner.github.io" target="about;blank">Hendrik Elsner</a> 2014</p>
 			</div>
 		</section>
 

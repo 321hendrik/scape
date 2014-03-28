@@ -74,8 +74,15 @@ p {
 }
 
 section .container {
-	height: 1000px;
+	height: 3000px;
+	width: 50%;
 	padding: 30px 30px;
+}
+
+section .video-container {
+	position: relative;
+	height: 1000px;
+	width: 100%;
 }
 
 .img-container {
@@ -100,6 +107,7 @@ section .container {
 }
 
 .contact-info p {
+	margin: 0;
 	padding: 20px;
 	color: #170A1F;
 	line-height: 1.4em;
@@ -142,4 +150,27 @@ p.bottom {
     position: relative;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
     color: #fff;
+}
+#video-background {
+		z-index: 1;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		overflow: hidden;
+}
+.video-text {
+		z-index: 2;
+		position:absolute;
+		top: 0px;
+		left: 10px;
+		width: 40%;
+}
+
+div canvas {
+	position: absolute;
+	top: 0px;
 }
